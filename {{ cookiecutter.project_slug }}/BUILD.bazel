@@ -16,6 +16,6 @@ gazelle(
 go_library(
     name = "{{ cookiecutter.project_slug }}",
     srcs = ["{{ cookiecutter.project_slug }}.go"],
-    importpath = "github.com/taylormonacelli/{{ cookiecutter.project_slug }}",
+    importpath = "github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.project_slug }}",
     visibility = ["//visibility:public"],
 )
